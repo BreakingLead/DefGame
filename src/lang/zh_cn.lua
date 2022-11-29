@@ -1,9 +1,12 @@
--- 这是默认字体
-love.graphics.setFont(FONT_MAY7)
-local font = love.graphics.getFont()
-
-M = {}
-
-M.mainmenu_start = love.graphics.newText(font,{{1,0,0},"1开始游戏"})
-
-return M
+local content = {
+    mainmenu ={
+        start = "开始游戏",
+        options = "选项",
+        exit = "退出游戏",
+        staff = "感谢"
+    },
+    staff = {
+        developers = "开发者: Wugic & Breaking_Lead"
+    }
+}
+return content

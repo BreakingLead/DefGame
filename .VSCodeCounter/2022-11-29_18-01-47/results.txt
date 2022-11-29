@@ -1,0 +1,72 @@
+Date : 2022-11-29 18:01:47
+Directory : /home/guo/Devel/DefGame
+Total : 33 files,  2976 codes, 413 comments, 651 blanks, all 4040 lines
+
+Languages
++--------------------+------------+------------+------------+------------+------------+
+| language           | files      | code       | comment    | blank      | total      |
++--------------------+------------+------------+------------+------------+------------+
+| Lua                |         30 |      2,876 |        413 |        648 |      3,937 |
+| JSON with Comments |          1 |         50 |          0 |          0 |         50 |
+| XML                |          1 |         46 |          0 |          0 |         46 |
+| Markdown           |          1 |          4 |          0 |          3 |          7 |
++--------------------+------------+------------+------------+------------+------------+
+
+Directories
++-------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                  | files      | code       | comment    | blank      | total      |
++-------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                     |         33 |      2,976 |        413 |        651 |      4,040 |
+| src                                                   |         27 |      2,897 |        409 |        640 |      3,946 |
+| src/lang                                              |          1 |          6 |          0 |          0 |          6 |
+| src/lib                                               |         19 |      2,773 |        408 |        617 |      3,798 |
+| src/lib/knife                                         |         12 |        705 |         46 |        171 |        922 |
+| src/lib/sti                                           |          5 |      1,775 |        354 |        357 |      2,486 |
+| src/lib/sti/plugins                                   |          2 |        384 |         61 |         73 |        518 |
+| src/map                                               |          1 |         46 |          0 |          0 |         46 |
+| src/object                                            |          1 |         19 |          0 |          4 |         23 |
+| src/scene                                             |          1 |         14 |          0 |          6 |         20 |
+| src/script                                            |          1 |          3 |          0 |          2 |          5 |
+| src/script/object                                     |          1 |          3 |          0 |          2 |          5 |
+| src/util                                              |          3 |         36 |          1 |         11 |         48 |
++-------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| filename                                              | language           | code       | comment    | blank      | total      |
++-------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| /home/guo/Devel/DefGame/.luarc.json                   | JSON with Comments |         50 |          0 |          0 |         50 |
+| /home/guo/Devel/DefGame/README.md                     | Markdown           |          4 |          0 |          3 |          7 |
+| /home/guo/Devel/DefGame/conf.lua                      | Lua                |          8 |          2 |          0 |         10 |
+| /home/guo/Devel/DefGame/main.lua                      | Lua                |         17 |          2 |          6 |         25 |
+| /home/guo/Devel/DefGame/settings.lua                  | Lua                |          0 |          0 |          1 |          1 |
+| /home/guo/Devel/DefGame/src/lang/zh_cn.lua            | Lua                |          6 |          0 |          0 |          6 |
+| /home/guo/Devel/DefGame/src/lib/classic.lua           | Lua                |         44 |          8 |         16 |         68 |
+| /home/guo/Devel/DefGame/src/lib/inspect.lua           | Lua                |        249 |          0 |         73 |        322 |
+| /home/guo/Devel/DefGame/src/lib/knife/base.lua        | Lua                |         14 |          0 |          2 |         16 |
+| /home/guo/Devel/DefGame/src/lib/knife/behavior.lua    | Lua                |         56 |          6 |         17 |         79 |
+| /home/guo/Devel/DefGame/src/lib/knife/bind.lua        | Lua                |         22 |          0 |          4 |         26 |
+| /home/guo/Devel/DefGame/src/lib/knife/chain.lua       | Lua                |         27 |          0 |          5 |         32 |
+| /home/guo/Devel/DefGame/src/lib/knife/convoke.lua     | Lua                |         46 |          0 |          9 |         55 |
+| /home/guo/Devel/DefGame/src/lib/knife/event.lua       | Lua                |         82 |         11 |         17 |        110 |
+| /home/guo/Devel/DefGame/src/lib/knife/gun.lua         | Lua                |          1 |          1 |          1 |          3 |
+| /home/guo/Devel/DefGame/src/lib/knife/memoize.lua     | Lua                |         63 |          0 |         15 |         78 |
+| /home/guo/Devel/DefGame/src/lib/knife/serialize.lua   | Lua                |         55 |          9 |         15 |         79 |
+| /home/guo/Devel/DefGame/src/lib/knife/system.lua      | Lua                |         61 |          0 |          9 |         70 |
+| /home/guo/Devel/DefGame/src/lib/knife/test.lua        | Lua                |         96 |         13 |         20 |        129 |
+| /home/guo/Devel/DefGame/src/lib/knife/timer.lua       | Lua                |        182 |          6 |         57 |        245 |
+| /home/guo/Devel/DefGame/src/lib/sti/graphics.lua      | Lua                |        110 |          0 |         23 |        133 |
+| /home/guo/Devel/DefGame/src/lib/sti/init.lua          | Lua                |      1,120 |        284 |        213 |      1,617 |
+| /home/guo/Devel/DefGame/src/lib/sti/plugins/box2d.lua | Lua                |        242 |         36 |         46 |        324 |
+| /home/guo/Devel/DefGame/src/lib/sti/plugins/bump.lua  | Lua                |        142 |         25 |         27 |        194 |
+| /home/guo/Devel/DefGame/src/lib/sti/utils.lua         | Lua                |        161 |          9 |         48 |        218 |
+| /home/guo/Devel/DefGame/src/map/lvl-1.tmx             | XML                |         46 |          0 |          0 |         46 |
+| /home/guo/Devel/DefGame/src/object/button.lua         | Lua                |         19 |          0 |          4 |         23 |
+| /home/guo/Devel/DefGame/src/scene/mainmenu.lua        | Lua                |         14 |          0 |          6 |         20 |
+| /home/guo/Devel/DefGame/src/script/object/button.lua  | Lua                |          3 |          0 |          2 |          5 |
+| /home/guo/Devel/DefGame/src/util/constant.lua         | Lua                |          4 |          0 |          4 |          8 |
+| /home/guo/Devel/DefGame/src/util/lang.lua             | Lua                |         17 |          1 |          3 |         21 |
+| /home/guo/Devel/DefGame/src/util/util.lua             | Lua                |         15 |          0 |          4 |         19 |
+| /home/guo/Devel/DefGame/test.lua                      | Lua                |          0 |          0 |          1 |          1 |
+| Total                                                 |                    |      2,976 |        413 |        651 |      4,040 |
++-------------------------------------------------------+--------------------+------------+------------+------------+------------+

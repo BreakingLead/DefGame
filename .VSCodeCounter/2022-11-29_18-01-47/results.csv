@@ -1,0 +1,35 @@
+"filename", "language", "Lua", "JSON with Comments", "Markdown", "XML", "comment", "blank", "total"
+"/home/guo/Devel/DefGame/.luarc.json", "JSON with Comments", 0, 50, 0, 0, 0, 0, 50
+"/home/guo/Devel/DefGame/README.md", "Markdown", 0, 0, 4, 0, 0, 3, 7
+"/home/guo/Devel/DefGame/conf.lua", "Lua", 8, 0, 0, 0, 2, 0, 10
+"/home/guo/Devel/DefGame/main.lua", "Lua", 17, 0, 0, 0, 2, 6, 25
+"/home/guo/Devel/DefGame/settings.lua", "Lua", 0, 0, 0, 0, 0, 1, 1
+"/home/guo/Devel/DefGame/src/lang/zh_cn.lua", "Lua", 6, 0, 0, 0, 0, 0, 6
+"/home/guo/Devel/DefGame/src/lib/classic.lua", "Lua", 44, 0, 0, 0, 8, 16, 68
+"/home/guo/Devel/DefGame/src/lib/inspect.lua", "Lua", 249, 0, 0, 0, 0, 73, 322
+"/home/guo/Devel/DefGame/src/lib/knife/base.lua", "Lua", 14, 0, 0, 0, 0, 2, 16
+"/home/guo/Devel/DefGame/src/lib/knife/behavior.lua", "Lua", 56, 0, 0, 0, 6, 17, 79
+"/home/guo/Devel/DefGame/src/lib/knife/bind.lua", "Lua", 22, 0, 0, 0, 0, 4, 26
+"/home/guo/Devel/DefGame/src/lib/knife/chain.lua", "Lua", 27, 0, 0, 0, 0, 5, 32
+"/home/guo/Devel/DefGame/src/lib/knife/convoke.lua", "Lua", 46, 0, 0, 0, 0, 9, 55
+"/home/guo/Devel/DefGame/src/lib/knife/event.lua", "Lua", 82, 0, 0, 0, 11, 17, 110
+"/home/guo/Devel/DefGame/src/lib/knife/gun.lua", "Lua", 1, 0, 0, 0, 1, 1, 3
+"/home/guo/Devel/DefGame/src/lib/knife/memoize.lua", "Lua", 63, 0, 0, 0, 0, 15, 78
+"/home/guo/Devel/DefGame/src/lib/knife/serialize.lua", "Lua", 55, 0, 0, 0, 9, 15, 79
+"/home/guo/Devel/DefGame/src/lib/knife/system.lua", "Lua", 61, 0, 0, 0, 0, 9, 70
+"/home/guo/Devel/DefGame/src/lib/knife/test.lua", "Lua", 96, 0, 0, 0, 13, 20, 129
+"/home/guo/Devel/DefGame/src/lib/knife/timer.lua", "Lua", 182, 0, 0, 0, 6, 57, 245
+"/home/guo/Devel/DefGame/src/lib/sti/graphics.lua", "Lua", 110, 0, 0, 0, 0, 23, 133
+"/home/guo/Devel/DefGame/src/lib/sti/init.lua", "Lua", 1120, 0, 0, 0, 284, 213, 1617
+"/home/guo/Devel/DefGame/src/lib/sti/plugins/box2d.lua", "Lua", 242, 0, 0, 0, 36, 46, 324
+"/home/guo/Devel/DefGame/src/lib/sti/plugins/bump.lua", "Lua", 142, 0, 0, 0, 25, 27, 194
+"/home/guo/Devel/DefGame/src/lib/sti/utils.lua", "Lua", 161, 0, 0, 0, 9, 48, 218
+"/home/guo/Devel/DefGame/src/map/lvl-1.tmx", "XML", 0, 0, 0, 46, 0, 0, 46
+"/home/guo/Devel/DefGame/src/object/button.lua", "Lua", 19, 0, 0, 0, 0, 4, 23
+"/home/guo/Devel/DefGame/src/scene/mainmenu.lua", "Lua", 14, 0, 0, 0, 0, 6, 20
+"/home/guo/Devel/DefGame/src/script/object/button.lua", "Lua", 3, 0, 0, 0, 0, 2, 5
+"/home/guo/Devel/DefGame/src/util/constant.lua", "Lua", 4, 0, 0, 0, 0, 4, 8
+"/home/guo/Devel/DefGame/src/util/lang.lua", "Lua", 17, 0, 0, 0, 1, 3, 21
+"/home/guo/Devel/DefGame/src/util/util.lua", "Lua", 15, 0, 0, 0, 0, 4, 19
+"/home/guo/Devel/DefGame/test.lua", "Lua", 0, 0, 0, 0, 0, 1, 1
+"Total", "-", 2876, 50, 4, 46, 413, 651, 4040

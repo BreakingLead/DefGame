@@ -1,10 +1,13 @@
-LANG = require("src.lang.zh_cn")
+-- DO NOT CHANGE THE ORDER OF THE REQUIREMENT
+FONT_MAY7 = love.graphics.newFont("src/assets/font/may7/quan.ttf",48)
+require("src.util.lang")
+
+-- Utils
 local util = require("src.util.util")
 
 function love.load()
-    ChangeScene("mainmenu")
 	love.graphics.setDefaultFilter("nearest","nearest",1)
-	FONT_MAY7 = love.graphics.newFont("src/assets/font/may7/quan.ttf")
+    ChangeScene("mainmenu")
 end
 
 function love.update(dt)
@@ -17,5 +20,6 @@ end
 
 function ChangeScene(nextScene)
 	Scene = require("src.scene."..nextScene)
+	print("Scene changed to "..nextScene.."!")
 	if Scene.load then Scene:load() end
 end
