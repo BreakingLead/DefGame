@@ -11,15 +11,15 @@ function love.load()
 end
 
 function love.update(dt)
-	if Scene.update then Scene:update(dt) end
+	Scene:update(dt)
 end
 
 function love.draw()
-	if Scene.draw then Scene:draw() end
+	Scene:draw()
 end
 
 function ChangeScene(nextScene)
 	Scene = require("src.scene."..nextScene)
 	Log("Scene changed to "..nextScene.."!")
-	if Scene.load then Scene:load() end
+	Scene:load()
 end

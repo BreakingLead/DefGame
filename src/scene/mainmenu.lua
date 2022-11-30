@@ -1,63 +1,48 @@
 -- REQUIREMENTS
 require("src.object.button")
+require("src.object.buttongroup")
+require("src.util.lang")
 local util = require("src.util.util")
 
 -- OBJECTS
-local objects = {}
-
-local bg = util.loadImage("src/assets/image/mainmenu-bg.png")
-
-objects[1]={"btn_start",Button(LANG.mainmenu_start,50,50,nil)}
-objects[2]={"btn_options",Button(LANG.mainmenu_options,50,250,nil)}
-objects[3]={"btn_exit",Button(LANG.mainmenu_exit,50,450,nil,function ()
+local bG1 = ButtonGroup()
+bG1:addButton(Button("btn_start",50,50,LANG.mainmenu_start))
+bG1:addButton(Button("btn_options",50,250,LANG.mainmenu_options))
+bG1:addButton(Button("btn_exit",50,450,LANG.mainmenu_exit,function ()
     print("Exitting...")
     os.exit()
-end)}
-objects[4]={"btn_staff", Button(LANG.mainmenu_staff,400,450,nil,function ()
+end))
+bG1:addButton(Button("btn_staff",400,450,LANG.mainmenu_staff,function ()
     ChangeScene("staff")
-end)}
+end))
 
-local choose_ptr=1
-local chosen=1
+local bg = util.loadImage("src/assets/image/mainmenu-bg.png")
 
 
 
 local M = {}
 
 function M:load()
+
 end
 
 function M:update(dt)
-    for index, value in ipairs(objects) do
-        value[2]:update(dt)
-        value[2].size = 4
-    end
-    objects[choose_ptr][2].size=6
+    bG1:update(dt)
 end
 
 function love.keypressed(key,scancode,isrepeat)
     if key=="up" then
-        if choose_ptr>1 then
-            choose_ptr=choose_ptr-1
-        else
-            choose_ptr = #objects
-        end
+        bG1:preSelectButtonInList(-1)
     elseif key=="down" then
-        if choose_ptr<#objects then
-            choose_ptr=choose_ptr+1
-        else
-            choose_ptr = 1
-        end
+        bG1:preSelectButtonInList(1)
     elseif key == "enter" or key == "z" then
-        objects[choose_ptr][2].func()
+        bG1:useButton()
     end
 end
 
 function M:draw()
     love.graphics.draw(bg)
-    for index, value in ipairs(objects) do
-        value[2]:draw()
-    end
+    bG1:draw()
 end
 
 return M

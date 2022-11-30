@@ -1,6 +1,6 @@
 local M = {}
 
 M.game_name = "WORLD"
-M.language = "en_us"
+M.language = "zh_cn"
 
 return M
