@@ -8,11 +8,12 @@ local final_key = {}
 
 local function dfs(x,tbl)
     for k, v in pairs(tbl) do
-        if type(v) == "string" or (type(v) == "table " and type(v[2]) == "string")then
-            final_key[x]=k
+        final_key[x]=k
+        if type(v) == "string" then
+            LANG[table.concat(final_key,"_",1,x)] = love.graphics.newText(font,v)
+        elseif type(v) == "table" and type(v[2]) == "string" then
             LANG[table.concat(final_key,"_",1,x)] = love.graphics.newText(font,v)
         else
-            final_key[x]=k
             dfs(x+1,v)
         end
     end

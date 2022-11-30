@@ -24,4 +24,18 @@ function M.mouseBoxCheck(ax,ay,bx,by)
 	return false
 end
 
+--Type:
+--1->INFO 2->WARN 3->ERROR
+function Log(msg,_msgtype)
+	local msgtype=1
+	if _msgtype then msgtype=_msgtype end
+	local prefix = "[INFO]"
+	if msgtype==2 then
+		prefix="[WARN]"
+	elseif msgtype==3 then
+		prefix="[ERROR]"
+	end
+	print(string.format("%s %s",prefix,msg))
+end
+
 return M

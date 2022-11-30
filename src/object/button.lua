@@ -22,11 +22,6 @@ function Button:new(text,x,y,img,func)
 end
 
 function Button:update(dt)
-    if util.mouseBoxCheck(self.x,self.y,self.fx,self.fy) then
-        if love.mouse.isDown(1) then
-            if self.func then self.func() end
-        end
-    end
 end
 
 function Button:draw()

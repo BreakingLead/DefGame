@@ -2,7 +2,7 @@ local content = {
     mainmenu = {
         start = "Game Start",
         options = "Options",
-        exit = "Exit",
+        exit = {{0,1,0},"Exit"},
         staff = "Thanks"
     },
     staff = {

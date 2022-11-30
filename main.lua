@@ -20,6 +20,6 @@ end
 
 function ChangeScene(nextScene)
 	Scene = require("src.scene."..nextScene)
-	print("Scene changed to "..nextScene.."!")
+	Log("Scene changed to "..nextScene.."!")
 	if Scene.load then Scene:load() end
 end
